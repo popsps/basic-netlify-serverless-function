@@ -42,8 +42,8 @@ class App extends React.Component {
         .then(res => res.json())
         .then(data => {
           const {a, b} = data
-          const c = parseInt(a) + parseInt(b)
-          this.setState({c})
+          const cs = parseInt(a) + parseInt(b)
+          this.setState({cs})
         }).catch(err => alert(err))
 
   }
