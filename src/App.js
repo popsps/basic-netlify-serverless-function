@@ -41,8 +41,8 @@ class App extends React.Component {
     fetch("/.netlify/functions/add", options)
         .then(res => res.json())
         .then(data => {
-          const {a, b} = data
-          const cs = parseInt(a) + parseInt(b)
+          console.log(data)
+          const {cs} = data
           this.setState({cs})
         }).catch(err => alert(err))
 
