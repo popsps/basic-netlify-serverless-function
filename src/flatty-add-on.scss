@@ -1,0 +1,39 @@
+.container
+{
+  section
+  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+    .card
+    {
+      flex: 1 1 calc(43% - 2rem);
+      margin: 1rem;
+      max-width: 500px;
+
+      .form-group
+      {
+        & > *
+        {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+.badge
+{
+  font-size: 1.5rem;
+}
+
+.flex-center
+{
+  display: flex;
+  justify-content: center;
+  & > * {
+    margin: 10px;
+  }
+}

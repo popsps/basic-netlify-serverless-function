@@ -1,0 +1,28 @@
+.container section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.container section .card {
+  flex: 1 1 calc(43% - 2rem);
+  margin: 1rem;
+  max-width: 500px;
+}
+.container section .card .form-group > * {
+  margin-top: 20px;
+}
+
+.badge {
+  font-size: 1.5rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.flex-center > * {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=flatty-add-on.css.map */
